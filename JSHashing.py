@@ -31,7 +31,7 @@ def info():
 def checkOS():
     if os.name == "nt":
         operatingSystem = "Windows"
-    elif os.name == "Linux":
+    elif os.name == "unix":
         operatingSystem = "Linux"
     else:
         operatingSystem = "Nenhum"
